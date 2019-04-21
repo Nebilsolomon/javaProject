@@ -1,0 +1,45 @@
+Name :Nebil Gokdemir
+Assignment:BookShelf
+
+I made Book Class which has name, title, author, publisher, price, copyright and this class has all those property setter and getter. Also, it has toString method to display all Class information. I also wrote Bookshelf class which has name and Book type Array. This array max take 5 book. This class have 
+toString, isEmpty, isFull, removeBook , isDuplicate, AddBookToBookShelf. Method. I also made extra 2 method which search bookshelf by name and display information of book, and another method search book by price
+
+I made another class which has main method and I made object of 5 book and 1 object of bookshelter. 
+I add ,remove and change if it is full or empty all is work 
+
+Note: I run and tested all method work properly
+
+/Library/Java/JavaVirtualMachines/jdk-11.0.2.jdk/Contents/Home/bin/java "-javaagent:/Applications/IntelliJ IDEA CE.app/Contents/lib/idea_rt.jar=52547:/Applications/IntelliJ IDEA CE.app/Contents/bin" -Dfile.encoding=UTF-8 -classpath /Users/nebil/Desktop/BookShelfProject_Nebil/out/production/BookShelfProject_Nebil TestBookshelf
+you add new bookDo Androids Dream of Electric Sheep
+you add new bookThe Hitchhiker's Guide to the Galaxy 
+you add new bookSomething Wicked This Way Comes 
+you add new bookPride and Prejudice and Zombies
+you add new bookI Was Told There'd Be Cake 
+============
+you remove Book = Do Androids Dream of Electric Sheep
+you remove Book = The Hitchhiker's Guide to the Galaxy 
+you remove Book = Something Wicked This Way Comes 
+==============
+is BookShelf empty =false
+is BookShelf empty =false
+==============
+
+Book title is Pride and Prejudice and Zombies
+authername is Seth
+publisher is newYorkBook
+price is 40 
+copyright date 2016
+
+
+Book title is I Was Told There'd Be Cake 
+authername is david
+publisher is BookHOSE
+price is 26 
+copyright date 2014
+
+
+you can't Duplicate
+you can't Duplicate
+
+Process finished with exit code 0
+
